@@ -1,0 +1,7 @@
+gcc memsim.c -o memsim -lm
+
+
+./memsim 1024 processes.txt 1
+./memsim 1024 processes.txt 2
+./memsim 1024 processes.txt 3
+
